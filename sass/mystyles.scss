@@ -12,3 +12,8 @@ $input-focus-box-shadow-color:rgba($primary, 0.25);
 .material-icons-outlined.md-24 { font-size: 24px; }
 .material-icons-outlined.md-36 { font-size: 36px; }
 .material-icons-outlined.md-48 { font-size: 48px; }
+.is-clickable { 
+    pointer-events: auto;
+    cursor: pointer!important;
+    user-select: none;
+}
