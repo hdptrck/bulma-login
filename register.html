@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bulma Register</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column  is-5-tablet is-5-desktop is-3-widescreen">
+                        <div class="has-text-centered mb-6">
+                            <img src="https://bulma.io/images/bulma-logo.png"
+                                alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112"
+                                height="28">
+                        </div>
+                        <form id="sign-in-form" action="" method="post" accept-charset="UTF-8" autocomplete="on">
+                            <div class="field">
+                                <label class="label" for="username">Username</label>
+                                <div class="control has-icons-left">
+                                    <input required name="username" for="username" class="input is-rounded focus-this" type="text"
+                                        placeholder="Type in your Username" maxlength="35">
+                                    <span class="icon is-left">
+                                        <i class="material-icons-outlined">
+                                            person
+                                        </i>
+                                    </span>
+                                </div>
+                                <p class="help"></p>
+                            </div>
+                            <div class="field">
+                                <label class="label" for="email">E-Mail</label>
+                                <div class="control has-icons-left">
+                                    <input required name="email" for="email" class="input is-rounded" type="email"
+                                        placeholder="Type in your E-Mail Adress" maxlength="50">
+                                    <span class="icon is-left">
+                                        <i class="material-icons-outlined">
+                                            email
+                                        </i>
+                                    </span>
+                                </div>
+                                <p class="help"></p>
+                            </div>
+                            <div class="field">
+                                <label class="label" for="password">Password</label>
+                                <div class="control has-icons-left has-icons-right">
+                                    <input required name="password" id="password" class="input is-rounded"
+                                        type="password" placeholder="Type in your Password" maxlength="35">
+                                    <span class="icon is-left">
+                                        <i class="material-icons-outlined">
+                                            lock
+                                        </i>
+                                    </span>
+                                    <span class="icon is-right">
+                                        <i class="material-icons-outlined is-clickable show-password">
+                                            visibility
+                                        </i>
+                                    </span>
+                                </div>
+                                <p class="help"></p>
+                            </div>
+                            <div class="field">
+                                <label class="label" for="confirm-password">Confirm Password</label>
+                                <div class="control has-icons-left has-icons-right">
+                                    <input required name="confirm-password" id="confirm-password"
+                                        class="input is-rounded" type="password" placeholder="Confirm your Password"
+                                        maxlength="35">
+                                    <span class="icon is-left">
+                                        <i class="material-icons-outlined">
+                                            lock
+                                        </i>
+                                    </span>
+                                    <span class="icon is-right">
+                                        <i class="material-icons-outlined is-clickable show-password">
+                                            visibility
+                                        </i>
+                                    </span>
+                                </div>
+                                <p class="help"></p>
+                            </div>
+                            <div class="buttons mt-5 is-right">
+                                <a href="./login.html" class="button is-rounded">Cancel</a>
+                                <button type="submit" class="button is-rounded is-primary">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot has-text-centered mb-2">
+            <a href="https://bulma.io">
+                <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128"
+                    height="24">
+            </a>
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
