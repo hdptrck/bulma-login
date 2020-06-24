@@ -25,10 +25,8 @@
                             <div class="field">
                                 <label class="label" for="username">Username</label>
                                 <div class="control has-icons-left">
-                                    <div class="control">
-                                        <input required name="username" for="username" class="input is-rounded"
-                                            type="text" placeholder="Type in your Username" maxlength="35">
-                                    </div>
+                                    <input required name="username" for="username" class="input is-rounded focus-this"
+                                        type="text" placeholder="Type in your Username" maxlength="35">
                                     <span class="icon is-left">
                                         <i class="material-icons-outlined">
                                             person
@@ -39,21 +37,26 @@
                             </div>
                             <div class="field">
                                 <label class="label" for="password">Password</label>
-                                <div class="control has-icons-left">
-                                    <div class="control">
-                                        <input required name="password" id="password" class="input is-rounded"
-                                            type="password" placeholder="Type in your Password" maxlength="35">
-                                    </div>
+                                <div class="control has-icons-left has-icons-right">
+                                    <input required name="password" id="password" class="input is-rounded focus-this"
+                                        type="password" placeholder="Type in your Password" maxlength="35">
                                     <span class="icon is-left">
                                         <i class="material-icons-outlined">
                                             lock
+                                        </i>
+                                    </span>
+                                    <span class="icon is-right">
+                                        <i class="material-icons-outlined is-clickable show-password">
+                                            visibility
                                         </i>
                                     </span>
                                 </div>
                                 <p class="help"></p>
                             </div>
                             <div class="buttons mt-5 is-right">
-                                <button class="button is-rounded">Sign Up</button>
+
+                                <a href="./register.html" class="button is-rounded">Sign Up</a>
+
                                 <button type="submit" class="button is-rounded is-primary">Sign In</button>
                             </div>
                         </form>
@@ -61,13 +64,14 @@
                 </div>
             </div>
         </div>
-        <div class="hero-foot has-text-centered">
+        <div class="hero-foot has-text-centered mb-2">
             <a href="https://bulma.io">
                 <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128"
                     height="24">
             </a>
         </div>
     </section>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
