@@ -7491,3 +7491,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .material-icons-outlined.md-48 {
   font-size: 48px; }
+
+.is-clickable {
+  pointer-events: auto;
+  cursor: pointer !important;
+  user-select: none; }
